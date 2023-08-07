@@ -16,5 +16,20 @@
        "c_senha_cont": "responsavel123",
        "id": 2
      }
+   ],
+
+   "novidades": [
+    {
+      "id": 1,
+      "email": "email@uruario.com"
+    }
+   ],
+
+   "feedback": [
+    {
+      "id": 1,
+      "assunto": "Assunto da mensagem",
+      "mensagem": "Mensagem do usuário"
+    }
    ]
  }
