@@ -9,9 +9,9 @@ const server = jsonServer.create();
 const router = jsonServer.router(isProductionEnv ? clone(data) : "db.json", {
   _isFake: isProductionEnv,
 });
-const middlewares = jsonServer.defaults();
+// const middlewares = jsonServer.defaults();
 
-server.use(middlewares);
+// server.use(middlewares);
 
 server.use((req, res, next) => {
   if (req.path !== "/") router.db.setState(clone(data));
