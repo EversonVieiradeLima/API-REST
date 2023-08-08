@@ -28,8 +28,9 @@
    "feedback": [
     {
       "id": 1,
-      "assunto": "Assunto da mensagem",
-      "mensagem": "Mensagem do usuário"
+      "email": "email@uruario.com",
+      "subject": "Assunto da mensagem",
+      "message": "Mensagem do usuário"
     }
    ]
  }
